@@ -22,7 +22,7 @@ With the [Heroku gem](http://devcenter.heroku.com/articles/heroku-command), crea
 
 Add a database to your app
 
-    $ heroku addons:add heroku-postgresql:dev
+    $ heroku addons:create heroku-postgresql:dev
     Adding heroku-postgresql:dev to strange-turtle-1234... done, v2 (free)
     Attached as HEROKU_POSTGRESQL_COLOR
     Database has been created and is available
