@@ -3,7 +3,7 @@ VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.box = "ubuntu/trusty64"
-  config.vm.synced_folder ".", "/app"
+  config.vm.synced_folder ".", "/app", owner: 'www-data'
 
   config.vm.define 'calasisqueta' do |calasisqueta|
     calasisqueta.vm.hostname = 'calasisqueta.local'
