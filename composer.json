@@ -9,7 +9,7 @@
     }
   ],
   "require": {
-    "vlucas/phpdotenv": "~1.0.9",
+    "vlucas/phpdotenv": "^2.0.1",
     "wpackagist-plugin/akismet": "3.0.*",
     "wpackagist-plugin/amazon-s3-and-cloudfront": "0.8.*",
     "wpackagist-plugin/amazon-web-services": "0.2.*",
