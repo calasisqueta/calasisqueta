@@ -20,6 +20,7 @@
     "wpackagist-plugin/w3-total-cache": "0.9.*",
     "wpackagist-plugin/widget-title-links": "1.4.*",
     "wpackagist-plugin/wordpress-https": "3.3.*",
-    "wpackagist-plugin/wordpress-importer": "0.6.*"
+    "wpackagist-plugin/wordpress-importer": "0.6.*",
+    "wpackagist-plugin/mailchimp": "1.4.*"
   }
 }
