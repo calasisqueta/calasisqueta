@@ -4,7 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "25951d2a3254e09a481ffb73bb276e5e",
+    "hash": "f932f469b0bb7c6e70efeae2eaa46f91",
+    "content-hash": "6937e89271c723cbc29ae2363c6f50ad",
     "packages": [
         {
             "name": "composer/installers",
@@ -294,26 +295,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/jetpack/"
-        },
-        {
-            "name": "wpackagist-plugin/mailchimp",
-            "version": "1.4.2",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/mailchimp/",
-                "reference": "tags/1.4.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/mailchimp.1.4.2.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/mailchimp/"
         },
         {
             "name": "wpackagist-plugin/w3-total-cache",
