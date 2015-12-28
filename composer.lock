@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f932f469b0bb7c6e70efeae2eaa46f91",
-    "content-hash": "6937e89271c723cbc29ae2363c6f50ad",
+    "hash": "94e62f7c067eef82ae37d16a5b095dbb",
+    "content-hash": "763920a5e693d299458f3d07dd1d5725",
     "packages": [
         {
             "name": "composer/installers",
@@ -375,6 +375,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wordpress-importer/"
+        },
+        {
+            "name": "wpackagist-theme/eventbrite-event",
+            "version": "1.3.0",
+            "source": {
+                "type": "svn",
+                "url": "http://themes.svn.wordpress.org/eventbrite-event/",
+                "reference": "1.3.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/eventbrite-event.1.3.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/eventbrite-event/"
         },
         {
             "name": "wpackagist-theme/twentyfourteen",
