@@ -8,6 +8,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.define 'calasisqueta' do |calasisqueta|
     calasisqueta.vm.hostname = 'calasisqueta.local'
     calasisqueta.vm.provision :shell, path: 'provision/setup.sh', keep_color: true
-    calasisqueta.vm.network :forwarded_port, guest: 80, host: 8000
+    calasisqueta.vm.network :forwarded_port, guest: 80, host: 8080
   end
 end

@@ -15,7 +15,7 @@ exec 2> >(tee provision.log >&2)
 
 echo -e "${BLUE}Provisioning virtual machine...${NC}"
 
-apt-get update -y
+sudo apt-get update -y
 
 echo -e "Installing Git${NC}"
 apt-get install git -y
