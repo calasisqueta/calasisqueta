@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "94e62f7c067eef82ae37d16a5b095dbb",
-    "content-hash": "763920a5e693d299458f3d07dd1d5725",
+    "hash": "af4eba107bc821bd28769e7517527137",
+    "content-hash": "1e3051c666e9bfcaab1f87cf93d44d6a",
     "packages": [
         {
             "name": "composer/installers",
@@ -107,28 +107,28 @@
         },
         {
             "name": "vlucas/phpdotenv",
-            "version": "v2.1.0",
+            "version": "v2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "c10040e0df17d2ee88e9212b50cbe9319e878f59"
+                "reference": "9caf304153dc2288e4970caec6f1f3b3bc205412"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/c10040e0df17d2ee88e9212b50cbe9319e878f59",
-                "reference": "c10040e0df17d2ee88e9212b50cbe9319e878f59",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/9caf304153dc2288e4970caec6f1f3b3bc205412",
+                "reference": "9caf304153dc2288e4970caec6f1f3b3bc205412",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.9"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.0"
+                "phpunit/phpunit": "^4.8|^5.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.1-dev"
+                    "dev-master": "2.2-dev"
                 }
             },
             "autoload": {
@@ -154,7 +154,7 @@
                 "env",
                 "environment"
             ],
-            "time": "2015-10-28 18:53:35"
+            "time": "2015-12-29 15:10:30"
         },
         {
             "name": "wpackagist-plugin/akismet",
@@ -377,16 +377,16 @@
             "homepage": "https://wordpress.org/plugins/wordpress-importer/"
         },
         {
-            "name": "wpackagist-theme/eventbrite-event",
+            "name": "wpackagist-theme/eventbrite-venue",
             "version": "1.3.0",
             "source": {
                 "type": "svn",
-                "url": "http://themes.svn.wordpress.org/eventbrite-event/",
+                "url": "http://themes.svn.wordpress.org/eventbrite-venue/",
                 "reference": "1.3.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/eventbrite-event.1.3.0.zip",
+                "url": "https://downloads.wordpress.org/theme/eventbrite-venue.1.3.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -394,7 +394,7 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-theme",
-            "homepage": "https://wordpress.org/themes/eventbrite-event/"
+            "homepage": "https://wordpress.org/themes/eventbrite-venue/"
         },
         {
             "name": "wpackagist-theme/twentyfourteen",
